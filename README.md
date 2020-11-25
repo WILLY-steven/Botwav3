@@ -22,7 +22,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
 > git clone https://github.com/WILLY-steven/Botwav1
-> cd AR15BOT
+> cd Botwav1
 > npm i -g cwebp && npm i -g ytdl && npm i  && npm i got && node index js
 > Tinggal scan kode qr yeee...done
 ```
