@@ -1,14 +1,14 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya Aris187 ID).
+* (Scriptnya Willy ID).
 */
-const BotName = '👾AR15BOT👾'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/_sadboy.ig'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/+6285722553839'; // Nomor whatsapplu cok
+const BotName = '👾BV3_wil👾'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/Willy_febriano.pasaribu'; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/+6282377313599'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // OFFICIAL GRUP LU 2
-const grupch3 = 'https://instagram.com/_sadboy.ig'; // OFFICIAL GRUP LU 3
+const grupch1 = '-'; // OFFICIAL GRUP LU 1
+const grupch2 = '-'; // OFFICIAL GRUP LU 2
+const grupch3 = 'https://instagram.com/Willy_febriano.pasaribu'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] BV3_wil Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -68,11 +68,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Willy_febriano.pasaribu.ig`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Willy_febriano.pasaribu.ig`)
 })
 
 conn.on('message-new', async(m) =>
@@ -889,7 +889,7 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah Aris187 ID
+//Tolonglah bro jangan di ubah ubah BV3_wil ID
 
 
 })
